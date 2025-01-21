@@ -1,0 +1,36 @@
+/* HERO SECTION */
+.section-hero {
+  background-color: #043873;
+  background-image: url("../img/svgs/hero-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-position: center;
+}
+
+.hero-text-box {
+  align-self: center;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 6rem;
+  color: #fff;
+}
+
+.hero-img-box {
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.hero-img:hover {
+  transform: scale(1.2);
+}
