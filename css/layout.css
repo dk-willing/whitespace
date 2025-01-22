@@ -32,6 +32,8 @@
 }
 
 .main-nav-list,
+.main-list-item,
+.cta-nav-list,
 .cta-nav-list {
   display: flex;
   justify-content: center;
