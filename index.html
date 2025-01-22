@@ -11,6 +11,15 @@
       rel="stylesheet"
     />
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -19,6 +28,61 @@
     <title>Whitespace</title>
   </head>
   <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="logo">
+            <img src="img/Logo-white.png" alt="" class="nav-logo" />
+          </div>
+          <div class="main-nav">
+            <div class="nav-el">
+              <ul class="main-nav-list">
+                <li class="main-list-item">
+                  <span>Products</span>
+                  <ion-icon
+                    name="chevron-down-outline"
+                    class="nav-icon"
+                  ></ion-icon>
+                </li>
+                <li class="main-list-item">
+                  <span>Solutions</span>
+                  <ion-icon
+                    name="chevron-down-outline"
+                    class="nav-icon"
+                  ></ion-icon>
+                </li>
+                <li class="main-list-item">
+                  <span>Resources</span>
+                  <ion-icon
+                    name="chevron-down-outline"
+                    class="nav-icon"
+                  ></ion-icon>
+                </li>
+                <li class="main-list-item">
+                  <span>Pricing</span>
+                  <ion-icon
+                    name="chevron-down-outline"
+                    class="nav-icon"
+                  ></ion-icon>
+                </li>
+              </ul>
+            </div>
+            <div class="nav-el-cta">
+              <ul class="cta-nav-list">
+                <li class="cta-item">
+                  <a href="#" class="btn-header-secondary">Login</a>
+                </li>
+                <li class="cta-item">
+                  <a href="#" class="btn-header-primary"
+                    >Try Whitespace free &rarr;</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
     <main>
       <section class="section-hero">
         <div class="container grid grid--2-cols">
@@ -36,6 +100,26 @@
               alt="Team collaborating photo"
               class="hero-img"
             />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-product">
+        <div class="container grid grid--2-cols">
+          <div class="product-text-box">
+            <h2 class="heading-secondary">Project Management</h2>
+            <div class="underline">
+              <img src="img/svgs/underline.svg" alt="" class="underline-img" />
+            </div>
+            <p class="product-description">
+              Images, videos, PDFs and audio files are supported. Create math
+              expressions and diagrams directly from the app. Take photos with
+              the mobile app and save them to a note.
+            </p>
+            <a href="#" class="btn-hero">Get Started &rarr;</a>
+          </div>
+          <div class="product-image-box">
+            <img src="img/photos/product2.jpg" alt="" class="product-img" />
           </div>
         </div>
       </section>

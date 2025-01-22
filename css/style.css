@@ -1,3 +1,20 @@
+/* HEADER */
+.header {
+  background-color: #043873;
+  padding: 2.4rem 0;
+}
+
+.nav-logo {
+  height: 3.2rem;
+}
+
+.main-nav-list,
+.cta-nav-list {
+  font-size: 1.6rem;
+  list-style: none;
+  color: #fff;
+}
+
 /* HERO SECTION */
 .section-hero {
   background-color: #043873;
@@ -7,7 +24,8 @@
   background-position: center;
 }
 
-.hero-text-box {
+.hero-text-box,
+.product-text-box {
   align-self: center;
 }
 
@@ -33,4 +51,29 @@
 
 .hero-img:hover {
   transform: scale(1.2);
+}
+
+/* PRODUCT SECTION */
+.section-product {
+  background-image: url("../img/svgs/product-background.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  position: relative;
+}
+
+.product-description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 6rem;
+}
+
+.underline-img {
+  position: absolute;
+  top: 42%;
+  z-index: -999;
+}
+
+.product-img {
+  width: 100%;
+  display: inline-block;
 }

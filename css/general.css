@@ -20,4 +20,11 @@ html {
   letter-spacing: -1px;
   margin-bottom: 2.4rem;
   color: #fff;
+  font-weight: 700;
+}
+
+.heading-secondary {
+  font-size: 7.2rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
 }

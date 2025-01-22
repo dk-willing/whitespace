@@ -1,5 +1,6 @@
 /* Sections */
-.section-hero {
+.section-hero,
+.section-product {
   padding: 6.4rem 0;
 }
 
@@ -14,4 +15,32 @@
 
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
+}
+
+/* Nav */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-list,
+.cta-nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
 }
