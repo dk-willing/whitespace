@@ -1,6 +1,7 @@
 /* Sections */
 .section-hero,
-.section-product {
+.section-product,
+.section-work {
   padding: 6.4rem 0;
 }
 
